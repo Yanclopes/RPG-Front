@@ -1,0 +1,48 @@
+.login{
+    max-width: 20rem;
+    height: 20rem;
+    background-color: rgba(1, 14, 51, 0.9);
+    padding: 3rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+
+.container{
+    height: 100vh;
+    background-image: url('https://c.wallhere.com/photos/4a/3c/Elden_Ring_screen_shot_photoshopped_Ranni_Elden_Ring-2222604.jpg!d');
+    background-size: 100%;
+}
+
+div[data-role='login']{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div[data-role='login'] input{
+    background: black;
+    border: none;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 0.2rem 0;
+}
+
+div[data-role='login']  input::placeholder{
+    color: white;
+}
+
+div[data-role='login'] label{
+    color: white;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
+.button button{
+    border: none;
+    background: rgb(0, 67, 255);
+    border-radius: 2rem;
+    padding: 0 0.8rem;
+    color: white;
+}
